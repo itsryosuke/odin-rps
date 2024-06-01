@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: paleturquoise;
+}
+
+h1 {
+    color: purple;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 8em;
+    padding: 15px 20px;
+    margin: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+    border: 2px solid black;
+    background-color: brown;
+}
+
+#result, #score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#result {
+    color: green;
+}
